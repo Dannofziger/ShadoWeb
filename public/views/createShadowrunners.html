@@ -1,0 +1,77 @@
+<div class="" data-ng-controller="MyThemeController">
+  <h1>Create a Runner</h1>
+  <form>
+    <div ng-controller="PriorityController" class="row">
+      <div name="Metatype" class="col-sm-3">
+        <select name="MetatypeA" ng-model="data.metatypeSelection">
+          <option ng-repeat="option in data.metatypeA" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MetatypeB" ng-model="data.metatypeSelection">
+          <option ng-repeat="option in data.metatypeB" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MetatypeC" ng-model="data.metatypeSelection">
+          <option ng-repeat="option in data.metatypeC" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MetatypeD" ng-model="data.metatypeSelection">
+          <option ng-repeat="option in data.metatypeD" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MetatypeE" ng-model="data.metatypeSelection">
+          <option ng-repeat="option in data.metatypeE" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+      </div>
+      <div name="Magic" class="col-sm-3">
+        <select name="MagicA" ng-model="data.magicSelection">
+          <option ng-repeat="option in data.magicA" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MagicB" ng-model="data.magicSelection">
+          <option ng-repeat="option in data.magicB" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MagicC" ng-model="data.magicSelection">
+          <option ng-repeat="option in data.magicC" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MagicD" ng-model="data.magicSelection">
+          <option ng-repeat="option in data.magicD" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+        <select name="MagicE" ng-model="data.magicSelection">
+          <option ng-repeat="option in data.magicE" value="{{option.name}}">{{option.name}}</option>
+        </select><br>
+      </div>
+      <div name="Attributes" class="col-sm-2 btn-group" data-toggle="buttons">
+        <label class="btn btn-primary">
+          <input name="Attribute" type="radio" id="AttributeA" autocomplete="off">24</input>
+        </label>
+        <label class="btn btn-primary">
+          <input name="Attribute" type="radio" id="AttributeB" autocomplete="off">20</input>
+        </label>
+        <label class="btn btn-primary">
+          <input name="Attribute" type="radio" id="AttributeC" autocomplete="off">16</input>
+        </label>
+        <label class="btn btn-primary">
+          <input name="Attribute" type="radio" id="AttributeD" autocomplete="off">14</input>
+        </label>
+        <label class="btn btn-primary">
+          <input name="Attribute" type="radio" id="AttributeE" autocomplete="off">12</input>
+        </label>
+      </div>
+      <div name="Skills" class="col-sm-2">
+        <div class="btn-group">
+          <button name="Skills" type="button" class="btn btn-primary" value="46/10">46/10</button><br>
+          <button name="Skills" type="button" class="btn btn-primary" value="36/5">36/5</button><br>
+          <button name="Skills" type="button" class="btn btn-primary" value="28/2">28/2</button><br>
+          <button name="Skills" type="button" class="btn btn-primary" value="22/0">22/0</button><br>
+          <button name="Skills" type="button" class="btn btn-primary" value="18/0">18/0</button><br>
+        </div>
+      </div>
+      <div name="Nuyen" class="col-sm-2">
+        <div class="btn-group">
+          <button name="NuyenA" type="button" class="btn btn-primary" value="450k">450k</button><br>
+          <button name="NuyenB" type="button" class="btn btn-primary" value="275k">275k</button><br>
+          <button name="NuyenC" type="button" class="btn btn-primary" value="140k">140k</button><br>
+          <button name="NuyenD" type="button" class="btn btn-primary" value="50k">50k</button><br>
+          <button name="NuyenE" type="button" class="btn btn-primary" value="6k">6k</button><br>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
